@@ -1,4 +1,6 @@
-// Kage test source (manga). Static data, no network access.
+// Kage test source (manga), version 1.1.0. Static data; pages are images hosted in the same
+// repository, so the only network host it needs is raw.githubusercontent.com.
+var BASE = "https://raw.githubusercontent.com/VISHNUVISHWA/kage-test-repo/main/pages/";
 var TITLES = [
   { id: "demo-1", title: "Demo Manga One", status: "Ongoing", latest: "Chapter 3" },
   { id: "demo-2", title: "Demo Manga Two", status: "Completed", latest: "Chapter 1" }
@@ -20,5 +22,5 @@ function chapters(id) {
   ];
 }
 function pages(chapterId) {
-  return ["https://example.org/" + chapterId + "/1.jpg", "https://example.org/" + chapterId + "/2.jpg"];
+  return [BASE + "1.png", BASE + "2.png", BASE + "3.png"];
 }
