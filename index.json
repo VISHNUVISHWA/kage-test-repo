@@ -1,0 +1,33 @@
+{
+  "name": "Kage Test Repository",
+  "url": "https://raw.githubusercontent.com/VISHNUVISHWA/kage-test-repo/main/index.json",
+  "version": 1,
+  "signing_key_fingerprint": "a8f5b4c3d2e1f0192837465bca9817263544ddeeaa5566778899001122334455",
+  "signature": "abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab",
+  "extensions": [
+    {
+      "id": "test-manga",
+      "name": "Test Manga",
+      "version": "1.0.0",
+      "lang": "en",
+      "media_type": "manga",
+      "is_nsfw": false,
+      "script_url": "https://raw.githubusercontent.com/VISHNUVISHWA/kage-test-repo/main/test-manga.js",
+      "script_sha256": "7e93941e776c08cb66bb808333fb00db2100cd590230b7eafd115f9c3acff132",
+      "permissions": [],
+      "min_app_version": "0.1.0"
+    },
+    {
+      "id": "test-anime",
+      "name": "Test Anime",
+      "version": "1.0.0",
+      "lang": "en",
+      "media_type": "anime",
+      "is_nsfw": false,
+      "script_url": "https://raw.githubusercontent.com/VISHNUVISHWA/kage-test-repo/main/test-anime.js",
+      "script_sha256": "58449cbd251ce4ca0cc91e8e56c8be64f2270c4b4db87e4fe2bae764c8567409",
+      "permissions": [],
+      "min_app_version": "0.1.0"
+    }
+  ]
+}
